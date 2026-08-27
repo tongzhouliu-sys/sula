@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="数僚 SULA 是企业数字员工管理系统，帮助企业像管理真实团队一样管理数字员工的岗位、能力、权限、协作与成果。" />
+    <title>数僚 SULA · 企业数字员工管理系统</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23101B37'/%3E%3Cpath d='M32 14l6 6-6 6-6-6z' fill='%23D5A64A'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- 顶部导航 -->
+    <header class="nav" id="nav">
+      <div class="container nav-inner">
+        <a class="brand" href="#hero" aria-label="数僚 SULA 首页">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" width="34" height="34" role="img" aria-label="数僚 SULA 标识">
+              <rect width="64" height="64" rx="15" fill="#101B37"/>
+              <g>
+                <circle cx="21" cy="18" r="5" fill="#1B9BA4"/>
+                <path d="M13 28l8 0 2 22-4 0z" fill="#1B9BA4"/>
+                <circle cx="43" cy="18" r="5" fill="#1B9BA4"/>
+                <path d="M35 28l8 0 2 22-4 0z" fill="#1B9BA4"/>
+                <circle cx="32" cy="13" r="6" fill="#EAF4F6"/>
+                <path d="M24 22l16 0 2.4 24-20.8 0z" fill="#EAF4F6"/>
+                <path d="M32 24l5.4 5.4-5.4 5.4-5.4-5.4z" fill="#D5A64A"/>
+              </g>
+            </svg>
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">数僚 SULA</span>
+            <span class="brand-sub">企业数字员工管理系统</span>
+          </span>
+        </a>
+
+        <nav class="nav-links" aria-label="主导航">
+          <a href="#problem">为何数僚</a>
+          <a href="#pillars">核心能力</a>
+          <a href="#scenarios">精选场景</a>
+          <a href="#investors">投资者看点</a>
+          <a href="#promise">我们的承诺</a>
+        </nav>
+
+        <a class="btn btn-primary nav-cta" href="#cta">预约演示</a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="展开菜单" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- 首屏 -->
+      <section class="hero" id="hero">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow light">企业数字员工管理系统 · Enterprise Digital Employee Management</p>
+            <h1>让企业拥有一支<br /><span class="accent-cyan">可管理</span>、<span class="accent-gold">可协同</span>、<span class="accent-cyan">可成长</span>的<br />数字员工团队</h1>
+            <p class="hero-lede">
+              数僚 SULA 为每一位数字员工建立身份、岗位、能力、权限与工作档案，让智能真正进入组织、服务业务、沉淀价值。
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary btn-lg" href="#cta">预约产品演示</a>
+              <a class="btn btn-ghost btn-lg" href="#pillars">探索核心能力</a>
+            </div>
+            <p class="hero-note">数僚是你的数字同僚与超级助攻：替你承担重复、耗时、信息密集的工作，让你把时间留给判断、创造、关系与决策。</p>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="window">
+              <div class="window-bar">
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                <span class="window-title">数字员工目录</span>
+              </div>
+              <div class="window-body">
+                <div class="dir-head">
+                  <span>全部数字员工</span>
+                  <span class="pill-online">12 位在岗</span>
+                </div>
+                <div class="emp-card">
+                  <span class="avatar av-navy">研</span>
+                  <span class="emp-info">
+                    <strong>投资研究员</strong>
+                    <small>信息归集 · 证据链 · 底稿</small>
+                  </span>
+                  <span class="status online">在岗</span>
+                </div>
+                <div class="emp-card">
+                  <span class="avatar av-cyan">云</span>
+                  <span class="emp-info">
+                    <strong>云专家助手</strong>
+                    <small>知识检索 · 排查 · 升级</small>
+                  </span>
+                  <span class="status busy">协作中</span>
+                </div>
+                <div class="emp-card">
+                  <span class="avatar av-gold">审</span>
+                  <span class="emp-info">
+                    <strong>企业合规官</strong>
+                    <small>条款比对 · 风险标记</small>
+                  </span>
+                  <span class="status online">在岗</span>
+                </div>
+                <div class="dir-result">
+                  <span class="diamond" aria-hidden="true"></span>
+                  <span>成果资产 · 已沉淀 328 份可复用知识</span>
+                </div>
+              </div>
+            </div>
+            <div class="float-chip chip-1">身份 · 岗位 · 档案</div>
+            <div class="float-chip chip-2">能力 · 权限边界</div>
+            <div class="float-chip chip-3">协同 · 成果资产</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 为何数僚 / 对比 -->
+      <section class="section" id="problem">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">WHY SULA</p>
+            <h2>企业缺的不是更多 AI 工具，<br />而是一套数字劳动力管理方式</h2>
+            <p class="section-sub">当智能能力以单点工具进入企业，效率提升往往停留在个人层面。数僚从「组织」出发，让智能真正成为可管理、可协同、可成长的生产力。</p>
+          </div>
+
+          <div class="compare-grid reveal">
+            <div class="compare-card is-old">
+              <h3>传统 AI 工具</h3>
+              <ul>
+                <li>入口孤立，员工需要在多个工具之间反复切换</li>
+                <li>能做什么、不能做什么，依赖使用者临时判断</li>
+                <li>一次提问对应一次结果，经验难以延续</li>
+                <li>过程不可见，责任归属与风险边界模糊</li>
+                <li>文档散落在个人会话与本地文件中</li>
+                <li>价值难衡量，试点容易停留在「好用」</li>
+              </ul>
+            </div>
+            <div class="compare-card is-new">
+              <h3>数僚 SULA</h3>
+              <ul>
+                <li>统一数字员工目录，按岗位找到合适的数字同僚</li>
+                <li>能力、数据与操作权限按岗位清晰配置</li>
+                <li>任务、协作、审查与成果形成连续履历</li>
+                <li>关键过程可观察、关键动作可审批、责任可追溯</li>
+                <li>成果统一归档、分级授权、持续复用</li>
+                <li>以任务完成率、节省工时、交付质量与资产复用率衡量价值</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 四大核心柱石 -->
+      <section class="section section-alt" id="pillars">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">CORE CAPABILITIES</p>
+            <h2>四大核心柱石</h2>
+            <p class="section-sub">从「身份」到「成果」，一条覆盖数字员工全生命周期的管理主线。</p>
+          </div>
+
+          <div class="pillars-grid">
+            <article class="pillar reveal">
+              <span class="pillar-num">01</span>
+              <div class="pillar-icon" style="--c: #101B37">▣</div>
+              <h3>身份与岗位档案</h3>
+              <p>每一位数字员工都有清晰的姓名、头像、员工编号、部门、岗位、职责、服务对象与负责人。</p>
+              <ul>
+                <li>统一数字员工目录</li>
+                <li>岗位职责与服务说明</li>
+                <li>业务负责人和管理归属</li>
+                <li>发布、在岗、暂停与归档状态</li>
+              </ul>
+            </article>
+            <article class="pillar reveal">
+              <span class="pillar-num">02</span>
+              <div class="pillar-icon" style="--c: #1B9BA4">◇</div>
+              <h3>能力与权限边界</h3>
+              <p>为岗位配置所需知识、专业能力与业务连接，并坚持按需授权，高风险事项始终保留人工确认。</p>
+              <ul>
+                <li>零代码能力配置</li>
+                <li>部门、人员与资源分级授权</li>
+                <li>敏感数据访问边界</li>
+                <li>高风险动作审批与人工接管</li>
+              </ul>
+            </article>
+            <article class="pillar reveal">
+              <span class="pillar-num">03</span>
+              <div class="pillar-icon" style="--c: #101B37">⬡</div>
+              <h3>多员工协同履历</h3>
+              <p>复杂任务由研究、分析、审阅、交付等不同岗位协作完成，每一次交接都形成可查看的工作记录。</p>
+              <ul>
+                <li>任务拆解与岗位协作</li>
+                <li>进度、状态与异常可见</li>
+                <li>人工审阅与协作交接</li>
+                <li>过程记录与责任追溯</li>
+              </ul>
+            </article>
+            <article class="pillar reveal">
+              <span class="pillar-num">04</span>
+              <div class="pillar-icon" style="--c: #D5A64A">◆</div>
+              <h3>成果资产管理</h3>
+              <p>报告、表格、方案、答复与知识条目不再散落，一次交付成为下一次工作的可靠起点。</p>
+              <ul>
+                <li>成果集中归档与检索</li>
+                <li>来源、版本与生成时间可查</li>
+                <li>访问、下载与分享受控</li>
+                <li>优质成果转化为企业知识资产</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 协作链 -->
+      <section class="section" id="workflow">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">WORKFLOW</p>
+            <h2>从需求到成果，一条可管理的协作链</h2>
+            <p class="section-sub">人在每个关键时刻拥有知情权、决定权与接管权。数字员工负责扩大执行能力，人负责定义目标、判断质量与承担最终决策。</p>
+          </div>
+
+          <ol class="flow reveal">
+            <li><span class="flow-dot"></span><strong>选择岗位</strong></li>
+            <li><span class="flow-dot"></span><strong>提交目标与资料</strong></li>
+            <li><span class="flow-dot"></span><strong>数字员工协同处理</strong></li>
+            <li><span class="flow-dot"></span><strong>人工审阅关键节点</strong></li>
+            <li><span class="flow-dot"></span><strong>交付成果</strong></li>
+            <li><span class="flow-dot"></span><strong>沉淀组织资产</strong></li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- 三大精选场景 -->
+      <section class="section section-alt" id="scenarios">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">SCENARIOS</p>
+            <h2>三大精选场景</h2>
+            <p class="section-sub">从一个高频、清晰、可衡量的业务流程开始，让数字员工进入业务深处。</p>
+          </div>
+
+          <div class="scene-grid">
+            <article class="scene reveal">
+              <div class="scene-top">
+                <span class="scene-icon">☁</span>
+                <span class="scene-tag">云服务与 IT</span>
+              </div>
+              <h3>云专家助手</h3>
+              <p>把经验变成随时在线的服务能力。先识别问题、检索企业知识、形成排查路径，并把复杂或高风险事项准确升级给人工专家。</p>
+              <div class="scene-flow">
+                <span>客户提问</span><i>→</i><span>问题分类</span><i>→</i><span>知识检索</span><i>→</i><span>排查建议</span><i>→</i><span>人工接管或交付</span>
+              </div>
+            </article>
+            <article class="scene reveal">
+              <div class="scene-top">
+                <span class="scene-icon">📈</span>
+                <span class="scene-tag">金融投资</span>
+              </div>
+              <h3>投资研究员</h3>
+              <p>让信息先被整理，让判断仍属于专业的人。持续完成初筛、对比、摘要和证据归集，研究员专注于假设、判断、风险与组合决策。</p>
+              <div class="scene-flow">
+                <span>研究主题</span><i>→</i><span>多源归集</span><i>→</i><span>要点提炼</span><i>→</i><span>对比标记</span><i>→</i><span>结论与归档</span>
+              </div>
+            </article>
+            <article class="scene reveal">
+              <div class="scene-top">
+                <span class="scene-icon">⚖</span>
+                <span class="scene-tag">政企与合规</span>
+              </div>
+              <h3>企业合规官</h3>
+              <p>让大批量审阅更快，让最终责任更清晰。按指定规则初筛合同与制度，定位缺失条款与潜在风险，再交由法务或合规负责人判断。</p>
+              <div class="scene-flow">
+                <span>文档进入</span><i>→</i><span>类型识别</span><i>→</i><span>差异标记</span><i>→</i><span>人工复核</span><i>→</i><span>意见交付</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 投资者看点 -->
+      <section class="section" id="investors">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">INVESTORS</p>
+            <h2>数字劳动力管理的新范式</h2>
+            <p class="section-sub">从单点工具支出，升级为组织级基础设施。当数字员工数量增加，企业必须持续管理身份、岗位、能力、权限、协作、绩效与成果。</p>
+          </div>
+
+          <div class="flywheel reveal">
+            <p class="flywheel-title">可持续扩展的价值飞轮</p>
+            <div class="flywheel-steps">
+              <span>更多业务岗位进入</span><i>→</i>
+              <span>更多任务被规范执行</span><i>→</i>
+              <span>更多高质量成果被沉淀</span><i>→</i>
+              <span>企业知识与流程更完整</span><i>→</i>
+              <span>数字员工交付更稳定</span><i>→</i>
+              <span>更多团队愿意采用</span>
+            </div>
+          </div>
+
+          <div class="investor-points reveal">
+            <div class="ipoint">
+              <h3>面向企业的长期关系</h3>
+              <p>以企业订阅为基础，随数字员工规模、专业岗位、治理能力和业务连接逐步扩展，价值来自长期纳管、持续使用与企业资产积累。</p>
+            </div>
+            <div class="ipoint">
+              <h3>能力中立与持续兼容</h3>
+              <p>企业的模型、知识来源和业务系统会持续变化，数僚通过统一管理层隔离变化，降低长期锁定风险。</p>
+            </div>
+            <div class="ipoint">
+              <h3>可量化的价值治理</h3>
+              <p>以成功任务而非调用次数为核心，持续统计完成率、交付时间、人工介入、成果采纳与成本，为续费与扩容提供证据。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 承诺 -->
+      <section class="section section-alt" id="promise">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">OUR PROMISE</p>
+            <h2>我们对每一位使用者的承诺</h2>
+          </div>
+
+          <div class="promise-grid reveal">
+            <div class="promise-card">
+              <h3>易上手</h3>
+              <p>用岗位语言配置数字员工，无需理解复杂技术；从一个岗位、一个流程开始，逐步扩展。</p>
+            </div>
+            <div class="promise-card">
+              <h3>高赋能</h3>
+              <p>把重复、耗时、信息密集的工作交给数字同僚，让个人能力被放大，让团队经验被复用。</p>
+            </div>
+            <div class="promise-card">
+              <h3>不替代</h3>
+              <p>关键判断、审批与最终责任始终由人掌握。目标是释放员工，而不是淘汰员工。</p>
+            </div>
+          </div>
+
+          <p class="promise-quote reveal">数僚不是来拿走你的岗位，而是来拿走那些阻碍你发挥价值的重复工作。</p>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta" id="cta">
+        <div class="container cta-inner">
+          <div class="cta-copy reveal">
+            <h2>从第一位数字员工开始</h2>
+            <p>选择一个高频、边界清晰、结果可衡量的业务流程。我们将与你一起定义岗位、配置能力、建立权限、设置审阅节点，并以真实指标验证价值。</p>
+            <a class="btn btn-primary btn-lg" href="mailto:hello@wonmay.com">预约产品演示</a>
+          </div>
+          <div class="cta-mark reveal" aria-hidden="true">
+            <svg viewBox="0 0 120 120" width="150" height="150">
+              <circle cx="46" cy="40" r="9" fill="#1B9BA4"/>
+              <path d="M30 58l16 0 4 40-8 0z" fill="#1B9BA4"/>
+              <circle cx="74" cy="40" r="9" fill="#1B9BA4"/>
+              <path d="M58 58l16 0 4 40-8 0z" fill="#1B9BA4"/>
+              <circle cx="60" cy="30" r="12" fill="#EAF4F6"/>
+              <path d="M44 48l32 0 4.6 46-41.2 0z" fill="#EAF4F6"/>
+              <path d="M60 52l10 10-10 10-10-10z" fill="#D5A64A"/>
+            </svg>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <span class="brand-name">数僚 SULA</span>
+          <p>企业数字员工管理系统<br />管理数字员工，释放组织生产力。</p>
+        </div>
+        <nav class="footer-links" aria-label="页脚导航">
+          <a href="#problem">为何数僚</a>
+          <a href="#pillars">核心能力</a>
+          <a href="#scenarios">精选场景</a>
+          <a href="#investors">投资者看点</a>
+          <a href="#promise">我们的承诺</a>
+          <a href="#cta">预约演示</a>
+        </nav>
+        <div class="footer-meta">
+          <p>产品支持与技术服务：武汉完美网络服务有限公司<br />公司官网：<a href="https://www.wonmay.com/" target="_blank" rel="noopener">www.wonmay.com</a></p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 武汉完美网络服务有限公司。保留所有权利。</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
